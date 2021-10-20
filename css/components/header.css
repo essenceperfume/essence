@@ -39,6 +39,10 @@ text-decoration: none;
 color: white;
 }
 
+.nav-list li a:hover {
+color: black;
+}
+
 .list-left {
 	display: inline;
 	padding-left: 0px;
