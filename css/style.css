@@ -1,0 +1,85 @@
+@import url("components/container.css");
+@import url("components/button.css");
+@import url("components/banner.css");
+@import url("components/card.css");
+@import url("components/footer.css");
+@import url("components/avatars.css");
+@import url("components/header.css");
+
+body { 
+	background-color:lightgrey; 
+	color:black ; 
+	font-family: 'Raleway', sans-serif;
+	font-weight: 100;
+}
+
+h1{
+	  color:whitesmoke;
+    font-size: 35px;
+    font-family: 'Lora', serif;
+    text-transform: uppercase;
+}
+
+
+h2{
+	color:#306253;
+	font-size: 30px;
+	font-family: 'Oswald', sans-serif;
+}
+
+h3{
+	color:#306253;
+	font-size: 25px;
+	font-family: 'Oswald', sans-serif;
+}
+
+
+
+a {
+	font-size: 20px;
+	font-family: 'Oswald', sans-serif;
+}
+
+
+.link-green {
+	color:#306253;
+	transition: color 0.3s ease;
+}
+
+.link-green:hover{
+	color: #D2B599;
+	}
+
+.link-beige {
+	color:#D2B599;
+	transition: color 0.3s ease;
+}
+
+.link-green:hover{
+	color:#306253;
+	}
+
+
+img{
+	width: 150px;
+}
+
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
+
+
+

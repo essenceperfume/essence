@@ -1,0 +1,33 @@
+.card-white {
+	background-color:rgb(246, 246, 246);
+	padding: 40px;
+	box-shadow:0px 10px 30px rgba(0, 0, 0, 0.1);
+	border-radius: 4px;
+	margin:20px 0px;
+	text-align: center;
+	line-height: 1,5em;
+	}
+
+.card-beige {
+	background-color:#D2B599;
+	padding: 40px;
+	box-shadow:0px 10px 30px rgba(0, 0, 0, 0.1);
+	border-radius: 4px;
+	margin:20px 0px;
+	text-align: center;
+	line-height: 1,5em;
+	}
+
+
+.card-lightgrey {
+	background-color:grey;
+	padding: 40px;
+	box-shadow:0px 10px 30px rgba(0, 0, 0, 0.1);
+	border-radius: 4px;
+	margin:20px 0px;
+	text-align: center;
+	line-height: 1,5em;
+	}
+
+000000
+
