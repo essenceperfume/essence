@@ -1,10 +1,10 @@
-@import url("components/container.css");
-@import url("components/button.css");
-@import url("components/banner.css");
-@import url("components/card.css");
-@import url("components/footer.css");
-@import url("components/avatars.css");
-@import url("components/header.css");
+@import url("/css/components/container.css");
+@import url("/css/components/button.css");
+@import url("/css/components/banner.css");
+@import url("/css/components/card.css");
+@import url("/css/components/footer.css");
+@import url("/css/components/avatars.css");
+@import url("/css/components/header.css");
 
 body { 
 	background-color:lightgrey; 
