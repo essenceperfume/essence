@@ -28,3 +28,62 @@
 	text-align: center;
 	}
 
+.card {
+  
+  justify-content: space-between;
+  padding: 40px 30px 40px 30px;
+  flex-grow: 1;
+  margin: 0px;
+  text-align: left;
+}
+.card img {
+  width: 300px;
+}
+
+#cardright{
+	padding: 0px;
+	margin-top: 58px;
+}
+
+.cards {
+  display: flex;
+
+    align-content: space-between;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#cardsbasket{
+
+flex-wrap: wrap;
+
+}
+
+
+.cardbasket {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  padding: 20px;
+
+  
+}
+.cardbasket img {
+  width: 300px;
+}
+
+
+.imgbasket{
+background-image: linear-gradient(-225deg, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.2) 50%), url(../../images/community.jpg);
+width: 700px;
+color: whitesmoke;
+padding: 20px 0px;
+background-size: cover;
+background-position: center;
+font-size: 100px;
+}
+
