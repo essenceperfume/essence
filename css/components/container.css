@@ -2,7 +2,14 @@
 	width: 800px;
 	margin:40px auto;
 	}
+#contorder{
+  width: 1100px;
+}
 
+@media (max-width: 1100px){
+  .container {
+    width: 960px;
+  }
 
 @media (max-width: 960px) {
   .container {
