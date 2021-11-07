@@ -1,5 +1,5 @@
 .bannersurvey { 
-background-image: linear-gradient(-225deg, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.2) 50%), url(../../images/bannersurvey.jpg);
+background-image: linear-gradient(-225deg, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.2) 50%), url(../../images/bannermainpage2.png.jpg);
 color: whitesmoke;
 padding: 40px 0px;
 background-size: cover;
@@ -42,4 +42,12 @@ background-position: center;
 .bannerpick h1 { 
 	text-align: center;
 	font-size: 30px;
+	}
+
+.bannerproduct { 
+background-image: linear-gradient(-225deg, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.2) 50%), url(../../images/bannersurvey.jpg);
+color: whitesmoke;
+padding: 40px 0px;
+background-size: cover;
+background-position: center;
 	}
