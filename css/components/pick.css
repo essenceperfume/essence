@@ -6,7 +6,7 @@
 
 
 
-.card {
+.cardpick {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -14,13 +14,13 @@
 }
 
 
-.card h1 {
+.cardpick h1 {
   color: white;
   flex-grow: 1;
   padding-left: 10px;
 }
  
-.card img {
+.cardpick img {
   width: 500px;
 }
 
