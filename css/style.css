@@ -9,7 +9,8 @@
 @import url("components/pick.css");
 @import url("components/aboutus.css");
 @import url("components/ourperfumes.css");
-
+@import url("components/index.css");
+@import url("components/product.css");
 
 body { 
 	background-color:lightgrey; 
