@@ -13,8 +13,10 @@ padding: 20px 0px;
 background-size: cover;
 background-position: center;
 	}
-
+#bannerorder{
+	margin: 0px 0px;
 }
+
 .bannersurvey h1 { 
 	font-size: 30px;
 	}
