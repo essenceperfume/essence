@@ -1,0 +1,26 @@
+#orderbackgroundbis {
+  background-image: url(../../images/back2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+form { 
+	text-align: center;
+	 }
+
+
+.form-control { 
+	text-align: center;
+	margin: 0;
+ }
+
+
+.btn-images img { 
+	width: 250px;
+	height: 250px;
+	max-width: 100%;
+ }
+
+
+
