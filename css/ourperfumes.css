@@ -1,0 +1,95 @@
+@import url("components/Footer.css");
+@import url("components/Header.css");
+@import url("components/button.css");
+
+body{
+	background-color: white;
+	color: black;
+	font-family: 'Ralewaa' sans-serif;
+	font-weight: 100;
+	margin: 0px;
+}
+
+H1{
+	color: white;
+	font-size: 25px;
+	font-family: 'lora', serif;
+	text-transform: uppercase;
+}
+
+H3{
+	color: #306253;
+	font-family: oswald, sans-serif;
+	font-size: 15px;
+}
+
+a{
+	font-size: 20px;
+}
+
+.btn-beige{
+	background-color:#D2B599;
+	color: ghostwhite;
+	padding: 15px 20px;
+	border-radius: 5px;
+}
+
+.btn-beige:hover {
+	background-color: #306253;
+	color: ghostwhite;
+}
+
+
+.link-beige {
+	color:#D2B599;
+	transition: color 0.3s ease;
+}
+
+.list-colonne {
+    margin: 0 ;
+    padding:0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    font-size: 10px;
+    float: 10px;
+  }
+
+.list-colonne div {
+    margin-right: 30px;
+    margin-left: 30px;
+    text-align: center;
+    display: inline;
+}
+
+.list-colonne ul {
+    list-style: none;
+     }
+
+img {
+	margin-top: 25;
+	margin-bottom: 25px;
+}
+
+#banner{
+	width: 100%;
+	opacity: 1;
+	top: 0;
+}
+
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
