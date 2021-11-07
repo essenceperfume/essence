@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title> Essence | Basket </title>
+<meta name="description" content="Thank you for your order">
+<meta charset="utf-8">
+<link rel="stylesheet" href="css/style.css">
+<script src="https://kit.fontawesome.com/c54a69c6d0.js" crossorigin="anonymous"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lora:wght@500&family=Oswald:wght@400;500&family=Raleway&display=swap" rel="stylesheet">
+</head>
+
+    
+<body>    
+ <header>        
+    <nav>
+      <ul class="nav-list">
+          <div class="list-left">
+            <li>
+               <a href="#">Our Perfumes</a>
+            </li>
+            <li>
+               <a href="#"><i id="icon" class="fas fa-search"></i></a>
+            </li>
+            </div>
+            
+            <div class="list-right">
+            <li>
+              <a href="#"><i id="icon" class="fas fa-user"></i></a>
+            </li>
+            <li>
+               <a href="#">About Us</a>
+            </li>
+            <li>
+              <a href="#"><i id="icon" class="fas fa-shopping-basket"></i></a>
+            </li>
+          </div>
+ 	  </ul>
+ 	<div class="banner" id="bannerbasket">
+  		<div class="container">
+    
+   		 <h1 id="hbasket">YOUR ORDER RECAP</h1>
+    
+ 		</div>
+
+ </header>
+
+	<div class="card-white">
+		
+ 		<div class="cards">
+
+	 		<div class="card">
+				<img src="images/essential.png">
+
+	 				
+	 	 	</div>
+	 
+	 		<div class="card">
+	 				<h4>ES’SENTIAL - Hesperdia perfume 5g (1)
+	 				ES’SENSUAL TESTER (1)</h4>
+	 				<h6>ES’SENTIAL 5g QTY 1 - 30€</h6>
+	 				<h6>1 FREE TESTER (ES’SENSUAL) QTY1 - 0€</h6>
+	 				<h6>SHIPPING - 3,50€</h6>
+	 				<h6><strong>TOTAL</strong> 33,50€</h6>
+
+	 		</div>
+	    </div>
+	
+	</div>
+
+	<div class="card-white">
+    
+		<div class="cards" id="cardsbasket"> 	  
+			
+			<div class="cardbasket">
+				<h3>SHIPPING DETAILS</h3>
+				<h6><strong>Estimated shipping date :</strong> Friday 1st October 2021</h6>
+				<h6><strong>Shipping Method :</strong> Standard (2-3 working days)</h6>
+
+
+
+				<form method="post" action="traitement.php">
+
+					<div id="formbasket">	
+						<h6><strong>E-mail address</strong></h6>
+		   			 <p>
+		        		<label for="E-mail"></label>
+		        		<input type="text" name="pseudo" id="E-mail" placeholder="E-mail address..." size="30" maxlength="10" />
+		   			 </p>
+		   			</div>
+
+		    		
+
+		    		<div id="formbasket">
+		    			<h6><strong>Shipping Address</strong></h6>
+
+		    			<p>
+		        			<label for="Full Name"></label>
+		        			<input type="text" name="pseudo" id="Full Name" placeholder="Full Name" size="30" maxlength="10" />
+		    			</p>
+
+		    		 	<p>
+		        			<label for="Number"></label>
+		        			<input type="text" name="pseudo" id="Number" placeholder="Number" size="30" maxlength="10" />
+		    			</p>
+
+		    		 	<p>
+		        			<label for="Street"></label>
+		        			<input type="text" name="pseudo" id="Street" placeholder="Street" size="30" maxlength="10" />
+		    			</p>
+
+
+		    			<p>
+		        			<label for="Postal"></label>
+		        			<input type="text" name="Postal" id="Postal" placeholder="Postal Code" size="30" maxlength="10" />
+		    			</p>
+
+
+		    		 	<p>
+		        			<label for="City"></label>
+		        			<input type="text" name="City" id="City" placeholder="City" size="30" maxlength="10" />
+		    			</p>
+
+
+		    		 	<p>
+		        			<label for="Country"></label>
+		        			<input type="text" name="Country" id="Country" placeholder="Country" size="30" maxlength="10" />
+		    			</p>
+		    		</div>
+		    	</form>
+		       
+		    </div>
+		    
+		    <div class="cardbasket">	
+			      <div>
+			      	
+			      		<ul class="list-inline li">
+   							<li><a href="index.html" class="imgbasket" src="images/community.jpg">JOIN OUR COMMUNITY</a> <br></li>
+   						</ul>
+			      </div>
+			</div>      
+		</div>
+
+
+    </div>
+ 
+	<div class="card-white">
+    
+ 		<div class="cards" id="cardsbasket">
+ 			<div class="cardbasket">
+				<h3>PAYMENT INFORMATION</h3>
+		
+				<form method="post" action="traitement.php">
+
+				
+			
+	   				 <p>
+	        			<label for="Name on the card"></label>
+	        			<input type="text" name="Name on the card" id="Name" placeholder="Name on the card" size="30" maxlength="10" />
+	   			 	</p>
+
+	   			  	<p>
+	        			<label for="Card digits"></label>
+	        			<input type="text" name="Card digits" id="digits" placeholder="Card digits" size="30" maxlength="10" />
+	   				 </p>
+
+	   			  	<p>
+	        			<label for="Secure Code"></label>
+	        			<input type="text" name="Secure Code" id="Secure" placeholder="Secure Code" size="30" maxlength="10" />
+	   				</p>
+
+	   			  	<p>
+	        			<label for="Expiration date"></label>
+	        			<input type="text" name="Expiration date" id="Expiration" placeholder="Expiration date" size="30" maxlength="10" />
+	   				</p>
+	   			</form>
+	   			
+	   			
+	   		</div>	
+	  		
+	 
+
+   			<div class="cardbasket">
+    			<a href="order.html" class="btn-green" target="blank">CONFIRM</a> <br> <br>
+
+    	
+    	    	<ul class="list-inline li">
+   					<li><a href="index.html" class="link-green">Back to the Shop</a> <br></li>
+   				</ul>
+   			</div>
+
+   		   		 	
+    	</div>
+
+    </div>		
+
+    	
+      
+    
+
+ 
+
+
+
+</body>
+
+
+</html>
