@@ -12,7 +12,9 @@ body {
 	font-family: 'Raleway', sans-serif;
 	font-weight: 100;
 }
-
+#bodyorder{
+	background-image: url("../images/order.png");
+}
 h1{
 	  color:whitesmoke;
     font-size: 35px;
@@ -31,6 +33,57 @@ h3{
 	color:#306253;
 	font-size: 25px;
 	font-family: 'Oswald', sans-serif;
+}
+h4{
+	color:#D2B599;
+	font-size: 35px;
+    font-family: 'Lora', serif;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+h5{
+	color:white;
+	font-size: 18px;
+	font-family: 'Oswald', sans-serif;
+	margin-top: 3px;
+	margin-bottom: 3px;
+}
+
+h6{
+	color:#9C9C9C;
+	font-size: 18px;
+	font-family: 'Oswald', sans-serif;
+	margin-top: 3px;
+	margin-bottom: 3px;
+	font-weight: 200;
+}
+#horder1{
+	text-transform: none;
+	font-size: 25px;
+	font-weight: 200;
+}
+#horder2{
+	color:#D2B599;
+	padding-top: 40px;
+}
+#porder{
+	font-weight: 200;
+}
+#hbasket{
+	text-align: center;
+}
+
+#formbasket{
+	padding-top: 20px;
+}
+
+
+.cardbasket h4 {
+  flex-grow: 1;
+  padding-left: 20px;
+  color: #888383
+
 }
 
 
@@ -63,7 +116,13 @@ a {
 img{
 	width: 150px;
 }
-
+#imgbasket{
+	width: 700px;
+}
+@media (max-width: 1100px){
+  .container {
+    width: 960px;
+  }
 
 @media (max-width: 960px) {
   .container {
