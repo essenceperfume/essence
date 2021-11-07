@@ -1,0 +1,11 @@
+.banner1 {
+	image: url(css/essence-main/images/bannermainpage.png);
+	background-size: cover;
+	background-position: center;
+}
+
+.banner2 {
+	background-image: url(css/essence-main/images/bannermainpage2.png);
+	background-size: cover;
+	background-position: center;
+}
