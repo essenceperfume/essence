@@ -1,0 +1,43 @@
+#orderbackground {
+  background-image: url(../../images/back.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+
+.card h1 {
+  color: white;
+  flex-grow: 1;
+  padding-left: 10px;
+}
+ 
+.card img {
+  width: 500px;
+}
+
+
+.shop {
+  text-align: right;
+  }
+
+.picklist li {
+  color: white;
+  list-style: none;
+  text-decoration: none;
+   }
+
+
+.picklist {
+   display: inline;
+   }
+
+  
