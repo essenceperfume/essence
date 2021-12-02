@@ -1,3 +1,7 @@
+body { 
+	background-color:white; 
+}
+
 .banner1 {
 	image: url(css/essence-main/images/bannermainpage.png);
 	background-size: cover;
