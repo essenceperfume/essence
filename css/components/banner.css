@@ -6,6 +6,14 @@ background-size: cover;
 background-position: center;
 	}
 
+.banneroranges { 
+background-image: linear-gradient(-225deg, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.2) 50%), url(../../images/bannerproduct.png);
+color: whitesmoke;
+padding: 40px 0px;
+background-size: cover;
+background-position: center;
+}
+
 #bannerbasket{
 background-image: linear-gradient(-225deg, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.2) 50%), url(../../images/basket.png);
 color: whitesmoke;
