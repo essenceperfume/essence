@@ -16,6 +16,12 @@ body {
     text-transform: uppercase;
 }
 
+#profilegreen-link{
+	color:#306253;
+	font-size: 18px;
+	font-family: 'Oswald', sans-serif;
+}
+
 h3{
 	color:#306253;
 	font-size: 25px;
