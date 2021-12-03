@@ -132,7 +132,9 @@ a {
 .link-green:hover{
 	color:#306253;
 	}
-
+.firstsentence{
+	font-size: 25px;
+}
 
 img{
 	width: 150px;
