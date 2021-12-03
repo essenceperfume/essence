@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
 
@@ -5,28 +6,44 @@
 <title> Essence </title>
 <meta name="description" content="This is Essence website">
 <meta charset="utf-8">
-<link rel="stylesheet" type="text/css" href="css/style.css">
+<link rel="stylesheet" href="css/style.css">
 <script src="https://kit.fontawesome.com/c54a69c6d0.js" crossorigin="anonymous"></script>
-<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fosnts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Lora:wght@500&family=Oswald:wght@400;500&family=Raleway&display=swap" rel="stylesheet">
 </head>
 
-<body ID="bc-white">
+<body id="mainbackground">
   <header>   
 
     <nav>
       <ul class="list-left">   
         <li style="float:left;"><a href="ourperfumes.html">Our Perfumes</a></li>
-        <li style="float:left;"><a href="#"><i id="icon" class="fas fa-search"></i></a></li>
-      </ul>
+        <li style="float:left;"><a href="survey.html"><i id="icon" class="fas fa-search"></i></a></li>
+      
+	     
+<form name="form" >
+<select size="1"  onChange="location = this.options[this.selectedIndex].value;">
+	<option value="index.html" > Homepage</option>
+	<option value="survey.html" >Find your essence</option>
+	<option value="pick.html" >Our Pick For You</option>
+	<option value="ourperfumes.html" >Perfumes</option>
+	<option value="product-page.html" >Product</option>
+	<option value="order.html" > Order </option>
+	<option value="basket.html" >Basket</option>
+	<option value="aboutus.html" >About Us</option>
+</select>
+</form>
 
-    <img src="images/logo.png" href="index.html" width="80px" alt="logo">
+</ul>	      
+	      
+   <a href="index.html"> <img src="images/logo.png"width="80px" alt="logo">
+      
             
       <ul class="list-right">
-        <li style="float:right" id="user"><a href="#"><i id="icon" class="fas fa-user"></i></a></li>
+        <li style="float:right" id="user"><a href="pick.html"><i id="icon" class="fas fa-user"></i></a></li>
       <li style="float:right;" id="about"><a href="aboutus.html">About Us</a></li>
-      <li style="float:right;" id="basket"><a href="#"><i id="icon" class="fas fa-shopping-basket"></i></a></li>
+      <li style="float:right;" id="basket"><a href="basket.html"><i id="icon" class="fas fa-shopping-basket"></i></a></li>
       </ul>
     </nav>
 
