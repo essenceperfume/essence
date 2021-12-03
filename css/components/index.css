@@ -1,6 +1,3 @@
-.mainbackground { 
-	background-color:white; 
-}
 
 .banner1 {
 	image: url(css/essence-main/images/bannermainpage.png);
@@ -17,7 +14,7 @@
 #bas-main {
 	width: 100%
 }
-.firstsentence {
+.firstsentence{
 	color:whitesmoke;
     	font-size: 18px;
     	font-family: 'Lora', serif;
